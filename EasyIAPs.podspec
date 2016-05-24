@@ -11,4 +11,14 @@ Pod::Spec.new do |s|
   s.description = 'This library provides a an easy way to manage In App Purchases '      \
                   'in your iOS app'
   s.frameworks = 'UIKit', 'Foundation'
+  s.social_media_url = 'https://twitter.com/aalvinv'
+
+  # s.resource_bundles = {
+  #   'dummy' => ['dummy/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
+
 end
