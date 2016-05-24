@@ -11,9 +11,9 @@
 		3D081CD33D18D52D74391F67B8D46089 /* EasyIAPs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B3C1B22AFF5FB7C6C03108987E94E /* EasyIAPs-dummy.m */; };
 		425C1B258FCEC57CB868B6AE9EB88E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		7020B995EDD787FE86780E479C0BDC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		923BEBDD4FE5FF4659C68A9C01ED3EE8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE4B49F4B7CAD6A768C6CC475B79F6 /* ReplaceMe.swift */; };
 		AA9295461A1570B99A25B54556E4C815 /* EasyIAPs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0ECBCFA572B7B532826F942188A59B6 /* Pods-EasyIAPs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F568EB7D895345DEAFB861DD7EB3FC3B /* Pods-EasyIAPs_Tests-dummy.m */; };
+		E11F02731CF43E9A00D82151 /* EasyIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11F02721CF43E9A00D82151 /* EasyIAP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 		C044F2C627C10A59057B38EC72F63A0D /* Pods-EasyIAPs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyIAPs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4ADD0ECC9A418E3FA74D425A9D96475 /* Pods-EasyIAPs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyIAPs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyIAPs.xcconfig; sourceTree = "<group>"; };
-		CDAE4B49F4B7CAD6A768C6CC475B79F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E11F02721CF43E9A00D82151 /* EasyIAP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyIAP.swift; sourceTree = "<group>"; };
 		EE2F00BA7E4A7C348F920CACBDAC9734 /* Pods-EasyIAPs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyIAPs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF2BD192CED74999923DEEFE8C350503 /* Pods-EasyIAPs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyIAPs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F568EB7D895345DEAFB861DD7EB3FC3B /* Pods-EasyIAPs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyIAPs_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		F30558F8DDD5E0CBF9888FDAABDEAE85 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CDAE4B49F4B7CAD6A768C6CC475B79F6 /* ReplaceMe.swift */,
+				E11F02721CF43E9A00D82151 /* EasyIAP.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D081CD33D18D52D74391F67B8D46089 /* EasyIAPs-dummy.m in Sources */,
-				923BEBDD4FE5FF4659C68A9C01ED3EE8 /* ReplaceMe.swift in Sources */,
+				E11F02731CF43E9A00D82151 /* EasyIAP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
