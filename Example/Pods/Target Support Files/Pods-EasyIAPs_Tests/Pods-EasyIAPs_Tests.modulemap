@@ -1,0 +1,6 @@
+framework module Pods_EasyIAPs_Tests {
+  umbrella header "Pods-EasyIAPs_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
