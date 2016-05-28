@@ -13,13 +13,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation'
   s.social_media_url = 'https://twitter.com/aalvinv'
   s.ios.deployment_target = '9.0'
-  s.source_files = 'EasyIAPs/*.swift'
-  # s.resource_bundles = {
-  #   'dummy' => ['dummy/Assets/*.png']
-  # }
-
-  s.public_header_files = 'Pod/Classes/*.h'
+  s.source_files = 'EasyIAPs/**/*.{swift}'
   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
-
+  
 end
