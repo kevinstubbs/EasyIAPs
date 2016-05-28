@@ -4,7 +4,6 @@
 [![Version](https://img.shields.io/cocoapods/v/EasyIAPs.svg?style=flat)](http://cocoapods.org/pods/EasyIAPs)
 [![License](https://img.shields.io/cocoapods/l/EasyIAPs.svg?style=flat)](http://cocoapods.org/pods/EasyIAPs)
 [![Platform](https://img.shields.io/cocoapods/p/EasyIAPs.svg?style=flat)](http://cocoapods.org/pods/EasyIAPs)
-[![Twiter](https://img.shields.io/cocoapods/p/EasyIAPs.svg?style=flat)](http://twitter.com/aalvinv)
 
 ## Requirements
   iOS 9.0+ 
@@ -12,15 +11,15 @@
   
 ## Communication
 
-If you need help, open an issue.
-If you'd like to ask a general question, open an issue.
-If you found a bug, open an issue.
-If you have a feature request, open an issue.
-If you want to contribute, submit a pull request.
+* If you need help, open an issue.
+* If you'd like to ask a general question, open an issue.
+* If you found a bug, open an issue.
+* If you have a feature request, open an issue.
+* If you want to contribute, submit a pull request.
 
 ## Installation
 
-*CocoaPods*
+**CocoaPods**
 
 EasyIAPs is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -29,7 +28,7 @@ it, simply add the following line to your Podfile:
 pod "EasyIAPs"
 ```
 
-*Manually*
+**Manually**
 
 ## Usage
 
