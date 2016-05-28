@@ -12,7 +12,11 @@
   
 ## Communication
 
-
+If you need help, open an issue.
+If you'd like to ask a general question, open an issue.
+If you found a bug, open an issue.
+If you have a feature request, open an issue.
+If you want to contribute, submit a pull request.
 
 ## Installation
 
@@ -27,11 +31,11 @@ pod "EasyIAPs"
 
 *Manually*
 
-# Usage
+## Usage
 
-# FAQ
+## FAQ
 
-# Credits
+## Credits
 
 ## Author
 
