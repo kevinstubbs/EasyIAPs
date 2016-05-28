@@ -5,6 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/EasyIAPs.svg?style=flat)](http://cocoapods.org/pods/EasyIAPs)
 [![Platform](https://img.shields.io/cocoapods/p/EasyIAPs.svg?style=flat)](http://cocoapods.org/pods/EasyIAPs)
 
+## Features
+
+- [x] In App Purchases and receipt validation via server.
+
+
 ## Requirements
   iOS 9.0+ 
   Xcode 7.3+
