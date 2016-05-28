@@ -1,22 +1,24 @@
 {
   "name": "EasyIAPs",
   "version": "0.1.0",
-  "summary": "A short description of EasyIAPs.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EasyIAPs",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+  "platforms": {
+    "ios": "9.0"
   },
+  "license": "MIT",
+  "summary": "Helping you to manage your In App Purchases easily.",
+  "homepage": "https://github.com/alvinvarghese/EasyIAPs",
   "authors": {
-    "Alvin Varghese": "alvin@nfnlabs.in"
+    "Alvin Varghese": "alvinvarghese@live.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EasyIAPs.git",
+    "git": "https://github.com/alvinvarghese/EasyIAPs.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "EasyIAPs/Classes/**/*"
+  "description": "This library provides a an easy way to manage In App Purchases in your iOS app",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "social_media_url": "https://twitter.com/aalvinv",
+  "source_files": "EasyIAPs/**/*.{swift}"
 }

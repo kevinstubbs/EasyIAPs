@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/aalvinv'
   s.ios.deployment_target = '9.0'
   s.source_files = 'EasyIAPs/**/*.{swift}'
-  s.frameworks = 'UIKit', 'Foundation'
-  
+  s.frameworks = 'UIKit', 'Foundation', 'StoreKit'
+
 end
