@@ -23,14 +23,42 @@
 
 EasyIAPs is available through [CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager for Cocoa projects. To install it run this command in Terminal app. *CocoaPods 1.0.0 is required to build EasyIAPs 0.1.0*.
 
-```
+```ruby
 gem install cocoapods
 ```
-
-To install EasyIAPs using CocoaPods, simply add the following line to your Podfile:
+Then, run the following command from your projects directory to initialise CocoaPods in your project.
 
 ```ruby
-pod "EasyIAPs"
+$ pod init
+```
+
+To integrate EasyIAPs into your project using CocoaPods, simply add pod 'EasyIAPs' to your Podfile.
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'YourApp' do
+
+  use_frameworks!
+  pod 'EasyIAPs'
+  
+  target 'YourAppTests' do
+    inherit! :search_paths
+  end
+
+  target 'YourAppUITests' do
+    inherit! :search_paths
+  end
+
+end
+
+```
+
+Then, run the following command.
+
+```ruby
+$ pod install
 ```
 
 **Manually**
