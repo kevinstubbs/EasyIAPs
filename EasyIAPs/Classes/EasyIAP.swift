@@ -69,13 +69,12 @@ public class EasyIAP : NSObject {
     
     private let restorePurchaseIdentifier = "RESTORE_PURCHASE"
     private var receiptValidationServer : String
+    private var currnetProductIdentifier : String
     private var EasyIAPCompletionBlock : (success : Bool, error : EasyIAPErrorType?) -> ()
     
     //MARRK: Init
     
     public init(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
-        
-        self.currentViewController = target
         
         if restore
         {

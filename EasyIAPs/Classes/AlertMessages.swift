@@ -20,6 +20,8 @@ public enum EasyIAPErrorType : Int
     // In App Purchase error
     
     case NoProducts = 100, NoProductFound, CantMakePayments, NotAValidReceiptURL, DidntMakeAnyPayments, CouldNotRestore, ProductRequestFailed, CoultNotParseJSONFromRecieptServer, StatusKeyDoesNotExistsInJSON, CouldNotConvertReceiptURLToNSData, ReceiptURLDoesNotExists, CouldNotReadAppStoreReceiptURL, NoResponseFromServer
+    
+    case NoError = 500
 }
 
 extension EasyIAPErrorType
@@ -54,6 +56,8 @@ extension EasyIAPErrorType
         case .ReceiptURLDoesNotExists : return "Receipt URL does not exists"
         case .CouldNotReadAppStoreReceiptURL : return "Could not read App Store receipt URL"
         case .NoResponseFromServer : return "No response from server"
+        
+        case .NoError : return "No Error"
         }
     }
 }
@@ -66,31 +70,33 @@ extension Int
         {
             // Receipt validation error
             
-        case 21000 : EasyIAPErrorType.CouldNotReadJSON
-        case 21002 : EasyIAPErrorType.DataMalformedOrMissing
-        case 21003 : EasyIAPErrorType.CouldNotAuthenticate
-        case 21004 : EasyIAPErrorType.DoesNotMatchSharedSecret
-        case 21005 : EasyIAPErrorType.ReceiptServerNotAvailable
-        case 21006 : EasyIAPErrorType.SubscriptionExpired
-        case 21007 : EasyIAPErrorType.TestEnvironmentReceipt
-        case 21008 : EasyIAPErrorType.ProductionEnvironmentReceipt
+        case 21000 : return EasyIAPErrorType.CouldNotReadJSON
+        case 21002 : return EasyIAPErrorType.DataMalformedOrMissing
+        case 21003 : return EasyIAPErrorType.CouldNotAuthenticate
+        case 21004 : return EasyIAPErrorType.DoesNotMatchSharedSecret
+        case 21005 : return EasyIAPErrorType.ReceiptServerNotAvailable
+        case 21006 : return EasyIAPErrorType.SubscriptionExpired
+        case 21007 : return EasyIAPErrorType.TestEnvironmentReceipt
+        case 21008 : return EasyIAPErrorType.ProductionEnvironmentReceipt
             
             // In App Purchase error
             
-        case 100 : EasyIAPErrorType.NoProducts
-        case 101 : EasyIAPErrorType.NoProductFound
-        case 102 : EasyIAPErrorType.CantMakePayments
-        case 103 : EasyIAPErrorType.NotAValidReceiptURL
-        case 104 : EasyIAPErrorType.DidntMakeAnyPayments
-        case 105 : EasyIAPErrorType.CouldNotRestore
-        case 106 : EasyIAPErrorType.ProductRequestFailed
-        case 107 : EasyIAPErrorType.CoultNotParseJSONFromRecieptServer
-        case 108 : EasyIAPErrorType.StatusKeyDoesNotExistsInJSON
-        case 109 : EasyIAPErrorType.CouldNotConvertReceiptURLToNSData
-        case 110 : EasyIAPErrorType.ReceiptURLDoesNotExists
-        case 111 : EasyIAPErrorType.CouldNotReadAppStoreReceiptURL
-        case 112 : EasyIAPErrorType.NoResponseFromServer
+        case 100 : return EasyIAPErrorType.NoProducts
+        case 101 : return EasyIAPErrorType.NoProductFound
+        case 102 : return EasyIAPErrorType.CantMakePayments
+        case 103 : return EasyIAPErrorType.NotAValidReceiptURL
+        case 104 : return EasyIAPErrorType.DidntMakeAnyPayments
+        case 105 : return EasyIAPErrorType.CouldNotRestore
+        case 106 : return EasyIAPErrorType.ProductRequestFailed
+        case 107 : return EasyIAPErrorType.CoultNotParseJSONFromRecieptServer
+        case 108 : return EasyIAPErrorType.StatusKeyDoesNotExistsInJSON
+        case 109 : return EasyIAPErrorType.CouldNotConvertReceiptURLToNSData
+        case 110 : return EasyIAPErrorType.ReceiptURLDoesNotExists
+        case 111 : return EasyIAPErrorType.CouldNotReadAppStoreReceiptURL
+        case 112 : return EasyIAPErrorType.NoResponseFromServer
+        default : ()
         }
+        return EasyIAPErrorType.NoError
     }
 }
 
