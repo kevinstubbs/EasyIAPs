@@ -21,8 +21,13 @@
 
 **CocoaPods**
 
-EasyIAPs is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+EasyIAPs is available through [CocoaPods](http://cocoapods.org). CocoaPods is a dependency manager for Cocoa projects. To install it run this command in Terminal app. *CocoaPods 1.0.0 is required to build EasyIAPs 0.1.0*.
+
+```
+gem install cocoapods
+```
+
+To install EasyIAPs using CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
 pod "EasyIAPs"
