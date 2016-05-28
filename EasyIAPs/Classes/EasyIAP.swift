@@ -68,14 +68,12 @@ public class EasyIAP : NSObject {
     //MARK: Variables
     
     private let restorePurchaseIdentifier = "RESTORE_PURCHASE"
-    private var currentViewController : UIViewController
     private var receiptValidationServer : String
-    private var currnetProductIdentifier : String
     private var EasyIAPCompletionBlock : (success : Bool, error : EasyIAPErrorType?) -> ()
     
     //MARRK: Init
     
-    public init(target : UIViewController, restore : Bool, productReferenceName : String, receiptValidatingServerURL : String, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
+    public init(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
         
         self.currentViewController = target
         
