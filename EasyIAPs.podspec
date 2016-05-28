@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation'
   s.social_media_url = 'https://twitter.com/aalvinv'
   s.ios.deployment_target = '9.0'
-  s.source_files = 'EasyIAPs/**/*.{h,m}''
+  s.source_files = 'EasyIAPs/**/*.{swift}'
   # s.resource_bundles = {
   #   'dummy' => ['dummy/Assets/*.png']
   # }
