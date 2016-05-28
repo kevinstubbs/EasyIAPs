@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = 'EasyIAPs/**/*.{swift}'
   s.frameworks = 'UIKit', 'Foundation', 'StoreKit'
 
+  
 end
