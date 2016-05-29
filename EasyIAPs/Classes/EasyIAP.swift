@@ -33,7 +33,6 @@ extension EasyIAP : SKRequestDelegate
 {
     public func requestDidFinish(request: SKRequest)
     {
-        
     }
     
     public func request(request: SKRequest, didFailWithError error: NSError)
