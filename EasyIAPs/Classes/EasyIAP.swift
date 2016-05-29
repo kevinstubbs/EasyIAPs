@@ -8,6 +8,7 @@
 import UIKit
 import StoreKit
 import Foundation
+import SVProgressHUD
 
 //MARK: SKProductsRequestDelegate
 
@@ -23,6 +24,10 @@ extension EasyIAP : SKProductsRequestDelegate
         } else {
             
             self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.NoProducts)
+            
+            // Stop Activity Indicator
+            
+            self.hideActivityIndicator()
         }
     }
 }
@@ -57,6 +62,10 @@ extension EasyIAP : SKPaymentTransactionObserver
     
     public func paymentQueue(queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: NSError)
     {
+        // Stop Activity Indicator
+        
+        self.hideActivityIndicator()
+        
         self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.CouldNotRestore)
     }
 }
@@ -78,7 +87,8 @@ public class EasyIAP : NSObject {
         
         if restore
         {
-            self.currnetProductIdentifier = self.restorePurchaseIdentifier 
+            
+            self.currnetProductIdentifier = self.restorePurchaseIdentifier
         }
         else
         {
@@ -90,6 +100,7 @@ public class EasyIAP : NSObject {
         
         super.init()
         
+        self.showActivityIndicator()
         self.start()
     }
     
@@ -126,12 +137,19 @@ public class EasyIAP : NSObject {
             self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.NotAValidReceiptURL)
         }
         
+        // Stop Activity Indicator
+        
+        self.hideActivityIndicator()
     }
     
     //MARK: Buy Product - Payment Section
     
     private func buyProduct(product : SKProduct)
     {
+        // Show Activity Indicator
+        
+        self.showActivityIndicator()
+        
         let payment = SKPayment(product: product)
         SKPaymentQueue.defaultQueue().addTransactionObserver(self)
         SKPaymentQueue.defaultQueue().addPayment(payment)
@@ -156,6 +174,10 @@ public class EasyIAP : NSObject {
     
     private func handlingTransactions(transactions : [AnyObject])
     {
+        // Show Activity Indicator
+        
+        self.showActivityIndicator()
+        
         for transaction in transactions {
             
             if let paymentTransaction : SKPaymentTransaction = transaction as? SKPaymentTransaction {
@@ -195,9 +217,17 @@ public class EasyIAP : NSObject {
     
     private func deliverProduct(product : String)
     {
+        // Show Activity Indicator
+        
+        self.showActivityIndicator()
+        
         self.validateReceipt { status , error in
             
             status ? self.EasyIAPCompletionBlock(success: true, error: nil) : self.EasyIAPCompletionBlock(success: false, error: error)
+            
+            // Stop Activity Indicator
+            
+            self.hideActivityIndicator()
         }
     }
     
@@ -283,5 +313,23 @@ public class EasyIAP : NSObject {
         }
     }
     
+    private func showActivityIndicator()
+    {
+        SVProgressHUD.show()
+    }
+    
+    private func hideActivityIndicator()
+    {
+        dispatch_async(dispatch_get_main_queue()) { 
+            SVProgressHUD.dismiss()
+        }
+    }
 }
+
+
+
+
+
+
+
 

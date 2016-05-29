@@ -18,8 +18,14 @@
   "frameworks": [
     "UIKit",
     "Foundation",
-    "StoreKit"
+    "StoreKit",
+    "QuartzCore"
   ],
   "social_media_url": "https://twitter.com/aalvinv",
-  "source_files": "EasyIAPs/**/*.{swift}"
+  "source_files": "EasyIAPs/**/*.{swift}",
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ]
+  }
 }
