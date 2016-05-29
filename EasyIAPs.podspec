@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary = 'Helping you to manage your In App Purchases easily.'
   s.homepage = 'https://github.com/alvinvarghese/EasyIAPs'
   s.author = { 'Alvin Varghese' => 'alvinvarghese@live.com' }
-  s.source = { :git => 'https://github.com/alvinvarghese/EasyIAPs.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/alvinvarghese/EasyIAPs.git', :tag => '0.1.1' }
 
   s.description = 'This library provides a an easy way to manage In App Purchases '      \
                   'in your iOS app'
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files = 'EasyIAPs/**/*.{swift}'
   s.frameworks = 'UIKit', 'Foundation', 'StoreKit'
 
-  
+
 end
