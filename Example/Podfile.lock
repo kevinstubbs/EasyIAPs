@@ -1,5 +1,5 @@
 PODS:
-  - EasyIAPs (0.1.0)
+  - EasyIAPs (0.1.1)
 
 DEPENDENCIES:
   - EasyIAPs (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EasyIAPs: 30ae9d4a4f13bf2739171b975a7db65cacb6b860
+  EasyIAPs: 723617b0a310dabf0956ee53ddf7d02cb9cf0443
 
 PODFILE CHECKSUM: 69bb196640546f735a6829665f800987f7ccf07e
 

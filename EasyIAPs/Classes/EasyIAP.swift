@@ -278,7 +278,7 @@ public class EasyIAP : NSObject {
                 completion(status: false, error:  EasyIAPErrorType.StatusKeyDoesNotExistsInJSON)
             }
         }
-        catch let error as NSError
+        catch
         {
             completion(status: false, error:  EasyIAPErrorType.CoultNotParseJSONFromRecieptServer)
         }

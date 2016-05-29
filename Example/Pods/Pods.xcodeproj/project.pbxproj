@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11C68DED3C6068423FB0E2AEE6A242C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		212F537D5D3787B184DD8D2C9553416C /* EasyIAPs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B3C1B22AFF5FB7C6C03108987E94E /* EasyIAPs-dummy.m */; };
 		2958544D3BC451A8218D00EDE64811E0 /* Pods-EasyIAPs_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2BD192CED74999923DEEFE8C350503 /* Pods-EasyIAPs_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		344C15394FB943D157088F6576D30EE7 /* EasyIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101A36AD4630F413DA64FB092A8236D /* EasyIAP.swift */; };
-		7020B995EDD787FE86780E479C0BDC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		82BDE304A6403546AE843BADC907B505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		8BCCAC4F10B3DBCA0669C907486DBDA6 /* EasyIAPs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA8488C4DCB1A6ABA88DFF271C6369B /* EasyIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */; };
+		6BBA34E4A1CBCD36D189127651E00FF4 /* EasyIAPs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B3C1B22AFF5FB7C6C03108987E94E /* EasyIAPs-dummy.m */; };
+		7020B995EDD787FE86780E479C0BDC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EFC1810B9E86D4E52126EE8C918DC1 /* Foundation.framework */; };
+		715084952EC7B48C13C0763AA380D876 /* EasyIAPs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9352580336C5B3B51DA906A1FBBF229B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EFC1810B9E86D4E52126EE8C918DC1 /* Foundation.framework */; };
+		939B134DD96678D2223C52130DC99CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89E4DB488EEBE157FD9079325ED56F2 /* UIKit.framework */; };
+		B0D2290C7A0AD6929B711606CF8CD38D /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */; };
 		B0ECBCFA572B7B532826F942188A59B6 /* Pods-EasyIAPs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F568EB7D895345DEAFB861DD7EB3FC3B /* Pods-EasyIAPs_Tests-dummy.m */; };
-		E1E539081CF9F19C0039E4F4 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E539071CF9F19C0039E4F4 /* AlertMessages.swift */; };
+		C9035F8AE47996DD0F662CA0A128C5BA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 864478C4DACCD9655B9639406D5B0904 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +24,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD99DDEF4E1E19FED19415F6B00A4463;
+			remoteGlobalIDString = C32B0A18BA80431229754D473F7200FB;
 			remoteInfo = EasyIAPs;
 		};
 /* End PBXContainerItemProxy section */
@@ -31,7 +32,6 @@
 /* Begin PBXFileReference section */
 		18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyIAPs-umbrella.h"; sourceTree = "<group>"; };
 		23F6C4A578B1EF13C2A1697C88C506B0 /* Pods-EasyIAPs_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyIAPs_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3101A36AD4630F413DA64FB092A8236D /* EasyIAP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyIAP.swift; sourceTree = "<group>"; };
 		335519BA3147E302CA22DA5DCA8910A7 /* Pods-EasyIAPs_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyIAPs_Tests-resources.sh"; sourceTree = "<group>"; };
 		35E495202EA78DDB54EFFC802B46AB22 /* EasyIAPs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyIAPs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		480B3C1B22AFF5FB7C6C03108987E94E /* EasyIAPs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyIAPs-dummy.m"; sourceTree = "<group>"; };
@@ -39,31 +39,24 @@
 		6F7E264BD045DE5776059E3A4B862053 /* Pods_EasyIAPs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIAPs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		772CB4DB4F0D59B6680965F02B9C8718 /* EasyIAPs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyIAPs.modulemap; sourceTree = "<group>"; };
 		85B4D98F6DD6FF4E7512E771C0A03811 /* Pods-EasyIAPs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyIAPs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		85EFC1810B9E86D4E52126EE8C918DC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		864478C4DACCD9655B9639406D5B0904 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F956E167FAD700315276F32D1FD103 /* EasyIAPs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyIAPs-prefix.pch"; sourceTree = "<group>"; };
 		96AD70DC89F62FC519C5BF3B5451A2CB /* Pods-EasyIAPs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasyIAPs_Tests.modulemap"; sourceTree = "<group>"; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyIAP.swift; sourceTree = "<group>"; };
 		B7E18215D06401A1429D1E02CBFC3AFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C044F2C627C10A59057B38EC72F63A0D /* Pods-EasyIAPs_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyIAPs_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4ADD0ECC9A418E3FA74D425A9D96475 /* Pods-EasyIAPs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyIAPs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyIAPs.xcconfig; sourceTree = "<group>"; };
-		E1E539071CF9F19C0039E4F4 /* AlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		E89E4DB488EEBE157FD9079325ED56F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EE2F00BA7E4A7C348F920CACBDAC9734 /* Pods-EasyIAPs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyIAPs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF2BD192CED74999923DEEFE8C350503 /* Pods-EasyIAPs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyIAPs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F568EB7D895345DEAFB861DD7EB3FC3B /* Pods-EasyIAPs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyIAPs_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		163A2EC32B70F56C19AD792566D1C3EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82BDE304A6403546AE843BADC907B505 /* Foundation.framework in Frameworks */,
-				11C68DED3C6068423FB0E2AEE6A242C3 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		247173C3AE283DD64587AE9B1679CBB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,16 +65,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD697BA5B3E147D433028A26A3E2ACF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9352580336C5B3B51DA906A1FBBF229B /* Foundation.framework in Frameworks */,
+				C9035F8AE47996DD0F662CA0A128C5BA /* StoreKit.framework in Frameworks */,
+				939B134DD96678D2223C52130DC99CB5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C0D175756828444DA6E3675FF894A97 /* Classes */ = {
+		085EC11B82D310EF2F6E9E6FF1B5F53C /* EasyIAPs */ = {
 			isa = PBXGroup;
 			children = (
-				3101A36AD4630F413DA64FB092A8236D /* EasyIAP.swift */,
-				E1E539071CF9F19C0039E4F4 /* AlertMessages.swift */,
+				AAA83DA3E4C314B76D0FCDD6036A558E /* Classes */,
 			);
-			path = Classes;
+			path = EasyIAPs;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EC7B7B4507F60A65334E6A1665E6D3 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1FCC348B69B797B4004639C6D2719E84 /* Targets Support Files */ = {
@@ -90,22 +100,6 @@
 				8E6332218586D5414502E8C359C23FF0 /* Pods-EasyIAPs_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5FD1F060D30EE056A6DC283806B2F573 /* EasyIAPs */ = {
-			isa = PBXGroup;
-			children = (
-				1C0D175756828444DA6E3675FF894A97 /* Classes */,
-			);
-			path = EasyIAPs;
 			sourceTree = "<group>";
 		};
 		6F928E922FD84389397DEC2340D6B2B2 /* Support Files */ = {
@@ -127,10 +121,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D08CA998AF084DEC360E31535CFA3E97 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				E7F62CCDF56D04522956E2B26793EBFD /* Products */,
 				1FCC348B69B797B4004639C6D2719E84 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		85EC7B7B4507F60A65334E6A1665E6D3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				85EFC1810B9E86D4E52126EE8C918DC1 /* Foundation.framework */,
+				864478C4DACCD9655B9639406D5B0904 /* StoreKit.framework */,
+				E89E4DB488EEBE157FD9079325ED56F2 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		8E6332218586D5414502E8C359C23FF0 /* Pods-EasyIAPs_Tests */ = {
@@ -151,10 +155,19 @@
 			path = "Target Support Files/Pods-EasyIAPs_Tests";
 			sourceTree = "<group>";
 		};
+		AAA83DA3E4C314B76D0FCDD6036A558E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */,
+				A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B05DA4D837DFFE5B4123595235B141BA /* EasyIAPs */ = {
 			isa = PBXGroup;
 			children = (
-				5FD1F060D30EE056A6DC283806B2F573 /* EasyIAPs */,
+				085EC11B82D310EF2F6E9E6FF1B5F53C /* EasyIAPs */,
 				6F928E922FD84389397DEC2340D6B2B2 /* Support Files */,
 			);
 			name = EasyIAPs;
@@ -178,31 +191,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0591CE00F3859BEA2F37E0BC8D6EBB08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715084952EC7B48C13C0763AA380D876 /* EasyIAPs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B9D928963A7AAA24FC99D3525C57580 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2958544D3BC451A8218D00EDE64811E0 /* Pods-EasyIAPs_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEB3F8B9995B0DC09B882955E1C3186A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BCCAC4F10B3DBCA0669C907486DBDA6 /* EasyIAPs-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,13 +231,13 @@
 			productReference = 6F7E264BD045DE5776059E3A4B862053 /* Pods_EasyIAPs_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DD99DDEF4E1E19FED19415F6B00A4463 /* EasyIAPs */ = {
+		C32B0A18BA80431229754D473F7200FB /* EasyIAPs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1EC9988B7151B3677730E4710129F6A0 /* Build configuration list for PBXNativeTarget "EasyIAPs" */;
+			buildConfigurationList = 54FECF3B01222D007034B31351FB736F /* Build configuration list for PBXNativeTarget "EasyIAPs" */;
 			buildPhases = (
-				BDC5308B095AFD0F26A3E6BBE867A670 /* Sources */,
-				163A2EC32B70F56C19AD792566D1C3EC /* Frameworks */,
-				AEB3F8B9995B0DC09B882955E1C3186A /* Headers */,
+				E43E8E03C8C47A29DEE5B1E74EBD730A /* Sources */,
+				AD697BA5B3E147D433028A26A3E2ACF5 /* Frameworks */,
+				0591CE00F3859BEA2F37E0BC8D6EBB08 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -265,7 +269,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD99DDEF4E1E19FED19415F6B00A4463 /* EasyIAPs */,
+				C32B0A18BA80431229754D473F7200FB /* EasyIAPs */,
 				621C54038CF3180B30C36A4681C860AF /* Pods-EasyIAPs_Tests */,
 			);
 		};
@@ -280,13 +284,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDC5308B095AFD0F26A3E6BBE867A670 /* Sources */ = {
+		E43E8E03C8C47A29DEE5B1E74EBD730A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				344C15394FB943D157088F6576D30EE7 /* EasyIAP.swift in Sources */,
-				E1E539081CF9F19C0039E4F4 /* AlertMessages.swift in Sources */,
-				212F537D5D3787B184DD8D2C9553416C /* EasyIAPs-dummy.m in Sources */,
+				B0D2290C7A0AD6929B711606CF8CD38D /* AlertMessages.swift in Sources */,
+				4EA8488C4DCB1A6ABA88DFF271C6369B /* EasyIAP.swift in Sources */,
+				6BBA34E4A1CBCD36D189127651E00FF4 /* EasyIAPs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 		990B42F9502621C4D703861035764894 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyIAPs;
-			target = DD99DDEF4E1E19FED19415F6B00A4463 /* EasyIAPs */;
+			target = C32B0A18BA80431229754D473F7200FB /* EasyIAPs */;
 			targetProxy = F872DF678B8184F1934800F0A9D4B757 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +348,7 @@
 			};
 			name = Debug;
 		};
-		281F9D8BF04865B7AE3ADD4C4CD4FD0C /* Debug */ = {
+		2171202219808FF62C5D077602AF823C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */;
 			buildSettings = {
@@ -408,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		C6FE30594D04A4130001A3CE8445F0A2 /* Release */ = {
+		A5DA25C070A519A4CD3CDE114CD8E016 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */;
 			buildSettings = {
@@ -520,20 +524,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1EC9988B7151B3677730E4710129F6A0 /* Build configuration list for PBXNativeTarget "EasyIAPs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				281F9D8BF04865B7AE3ADD4C4CD4FD0C /* Debug */,
-				C6FE30594D04A4130001A3CE8445F0A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				034014829C1E4434983CF3A690C12017 /* Debug */,
 				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FECF3B01222D007034B31351FB736F /* Build configuration list for PBXNativeTarget "EasyIAPs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2171202219808FF62C5D077602AF823C /* Debug */,
+				A5DA25C070A519A4CD3CDE114CD8E016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
