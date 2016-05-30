@@ -81,7 +81,7 @@ class EasyIAP : NSObject {
     private var currnetProductIdentifier = String()
     private var loaderRingColor = UIColor.whiteColor()
 
-    private var EasyIAtPCompletionBlock : ((success : Bool, error : EasyIAPErrorType?) -> ())?
+    private var EasyIAPCompletionBlock : ((success : Bool, error : EasyIAPErrorType?) -> ())?
     
     //MARRK: startProductRequest
     
