@@ -81,12 +81,14 @@ class EasyIAP : NSObject {
     private var currnetProductIdentifier = String()
     private var loaderRingColor = UIColor.whiteColor()
 
-    private var EasyIAPCompletionBlock : ((success : Bool, error : EasyIAPErrorType?) -> ())?
+    private var EasyIAtPCompletionBlock : ((success : Bool, error : EasyIAPErrorType?) -> ())?
     
     //MARRK: startProductRequest
     
     func startProductRequest(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, loaderRingColor : UIColor, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
         
+        self.EasyIAPCompletionBlock = completion
+
         if Platform.isSimulator {
             
             self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.CantRunInSimulator)
@@ -104,7 +106,6 @@ class EasyIAP : NSObject {
                 self.currnetProductIdentifier = productReferenceName
             }
             
-            self.EasyIAPCompletionBlock = completion
             self.receiptValidationServer = receiptValidatingServerURL
             self.showActivityIndicator()
             self.start()
