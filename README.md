@@ -70,6 +70,19 @@ $ pod install
 
 ## Usage
 
+
+|   Error Code    |      Error Type                 |     Error Description  |
+| ----------------|:-------------------------------:| :---------------------:|
+|     21000       |   CouldNotReadJSON              | The App Store could not read the JSON object you provided |
+|     21002       |   DataMalformedOrMissing        | The data in the receipt-data property was malformed or missing |
+|     21003       |   CouldNotAuthenticate          | The receipt could not be authenticated |
+|     21004       |   DoesNotMatchSharedSecret      | The shared secret you provided does not match the shared secret on file for your account |
+|     21005       |   ReceiptServerNotAvailable     | The receipt server is not currently available |
+|     21006       |   SubscriptionExpired           | This receipt is valid but the subscription has expired. |
+|     21007       |   TestEnvironmentReceipt        | This receipt is from the test environment, but it was sent to the production environment for verification. Send it to the test environment instead. |
+|     21008       |   ProductionEnvironmentReceipt  | This receipt is from the production environment, but it was sent to the test environment for verification. Send it to the production environment instead. |
+
+
 ## FAQ
 
 ## Credits
