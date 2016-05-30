@@ -1,5 +1,5 @@
 PODS:
-  - EasyIAPs (0.1.2):
+  - EasyIAPs (0.1.3):
     - SVProgressHUD
   - SVProgressHUD (2.0.3)
 
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EasyIAPs: 29ed3ef43ca74bfa326e56200a06ea4e67b4c250
+  EasyIAPs: 062f35b32b932a97d963a387f2dfdb229fb28fd1
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
 
 PODFILE CHECKSUM: 1654540102c87ea58c6da836a9780b7559c152c4
