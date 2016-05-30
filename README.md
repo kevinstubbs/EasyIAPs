@@ -9,8 +9,8 @@
 
 - [x] In App Purchases supports only Consumables.
 - [x] In App Purchases and receipt validation via server.
-- [ ] A receipt validation server for testing [ Will be available in 0.1.4 ].
-- [ ] Non-Consumables, Auto-Renewable Subscriptions, Free Subscriptions, Non-Renewing Subscriptions [ Will be available in 0.1.4 ].
+- [ ] A receipt validation server for testing [ Will be available in 0.1.5 ].
+- [ ] Non-Consumables, Auto-Renewable Subscriptions, Free Subscriptions, Non-Renewing Subscriptions [ Will be available in 0.1.5 ].
 
 
 ## Requirements
