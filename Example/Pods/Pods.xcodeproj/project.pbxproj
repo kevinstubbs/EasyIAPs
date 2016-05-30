@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		123EE8904A66C13905A7D8986DEFF9DF /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */; };
-		175BC347C93FEBD29A3A806FDEC5872E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */; };
+		008FE95E67E97ABCF670C969ABD58695 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00D505C8D59919F7480C93186D2277A1 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */; };
 		1E43AEF64703D3574284B33E040C5EA5 /* Pods-EasyIAPs_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2BD192CED74999923DEEFE8C350503 /* Pods-EasyIAPs_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F27A55B6389FC8473A2EC2D0FE2D57A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */; };
-		2BC6FDCC47B7559A06BCD131C128B80C /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36DEA81D4D6D73C7920D2D91D998643A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D5EDBC2DA89D34A9F8A884D96D1114 /* QuartzCore.framework */; };
+		2321959E9AD3E846AB6EC25F7E42A041 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D5EDBC2DA89D34A9F8A884D96D1114 /* QuartzCore.framework */; };
+		252E3516D3DF012E2D052CE5FB5BB5EE /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C9897C3A13D198F9AD36B04C35172A /* AlertMessages.swift */; };
+		27C11B2EBBEF61D2ADE12B658D7AAEAD /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DFD7E6CAFC1A91A3981BF8B39EC29DB /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */; };
+		2FF28DC951B78D6213E9906EC94999F8 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */; };
+		42FEF9F62DF2B6F7C7B9D4FE8688DDF7 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B04203C86A512DCDA0B28261391F0F /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */; };
 		4A5151F73695289E251D10F529826C6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC56E59724009FA76673EAB4A0DB9B0 /* Foundation.framework */; };
-		521CB48DA6F7D8CD85116D0FE334F5C1 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */; };
+		4F576B69305F9CA9610034C75902E618 /* EasyIAPs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B3C1B22AFF5FB7C6C03108987E94E /* EasyIAPs-dummy.m */; };
+		5145E80528F66B5962C0A54D33CC72CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC56E59724009FA76673EAB4A0DB9B0 /* Foundation.framework */; };
+		584C0B2A05C301BFEE06FC23493C5DF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC56E59724009FA76673EAB4A0DB9B0 /* Foundation.framework */; };
+		6BD301BAC68D7757F8FF26F2E402AC06 /* EasyIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4010B49167C9B544375A13950B802807 /* EasyIAP.swift */; };
 		7838B11643D1B0DD690D2955007956A0 /* Pods-EasyIAPs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F568EB7D895345DEAFB861DD7EB3FC3B /* Pods-EasyIAPs_Tests-dummy.m */; };
-		785C27C6FE6A7BBB582AE1FB646B753A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D5EDBC2DA89D34A9F8A884D96D1114 /* QuartzCore.framework */; };
-		83ED41F52ACA4EA91C4707EE4800E3E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC56E59724009FA76673EAB4A0DB9B0 /* Foundation.framework */; };
-		8C1E4B81B65A7FB693E781226967D4AE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		909464A1A953F0273B3A05EDD0796DA1 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */; };
-		90EB0C1332307A469A641EA4378EEAE0 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */; };
-		A3F833B01A3273254DBD535A64B66B92 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */; };
-		A7E1367A847818520EB8E2DAF432AC27 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279D06CC4EFB41DC15925EFC6A28BF78 /* StoreKit.framework */; };
-		A84BDD5BB0B7F8228E250F9345C0AB53 /* EasyIAPs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 480B3C1B22AFF5FB7C6C03108987E94E /* EasyIAPs-dummy.m */; };
-		ABE077DDB7A041320A08593ADFA82887 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B00F0D82EDDB3702AA0465B49DE11341 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B64A382030B74F10C2FD430189BA7647 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C610C9B144C66D44AD8A1506F96CA3F6 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C8490535036C3997B92EFA9E4FB831 /* SVProgressHUD.framework */; };
-		CAA448BFABC4686EC7FAD86C0A4A3409 /* EasyIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */; };
-		E130BA881CFC117800E6FE03 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130BA871CFC117800E6FE03 /* HelperMethods.swift */; };
-		E2573BEFD488A38E2DA604F336853CAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0826F669D1E722E4EBBE96C5AD1078 /* UIKit.framework */; };
-		ED4B8E46B0861956FE448890820E8EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC56E59724009FA76673EAB4A0DB9B0 /* Foundation.framework */; };
-		F27DFA3F66752D4583129B024ED3B96D /* EasyIAPs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DC67BD271C57429D06D2B6EBE3BE2C /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C8490535036C3997B92EFA9E4FB831 /* SVProgressHUD.framework */; };
+		7A827B9D739BEC11A63BF64A1D749516 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D068AD87A088EF6B6F61A1952E59235 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */; };
+		8D1DF4E721CD57A225B85E25F1CCDA56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0826F669D1E722E4EBBE96C5AD1078 /* UIKit.framework */; };
+		A59E4A6404FF3A9A8CF54967727183D2 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7DD87564342FECFAC20C3A963AEB523 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC177DE6AEF89C38E0EB3E5E8BD9F804 /* HelperMethods.swift */; };
+		CD022B6FC2EA3BA96303C1602E1CC90D /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */; };
+		D936090700A09A9EFE76B8E272D38615 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279D06CC4EFB41DC15925EFC6A28BF78 /* StoreKit.framework */; };
+		ED1E48EDF9ACD59F8906738AD8297E03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D5EDBC2DA89D34A9F8A884D96D1114 /* QuartzCore.framework */; };
+		F2E5D73660340AF9A6340B96C9D77553 /* EasyIAPs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,26 +40,27 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F594B8AC9E7B30817E0D3DF28E6C5F5;
+			remoteGlobalIDString = 5EED7F368AEE08BF737C2BBDE7BE651A;
 			remoteInfo = EasyIAPs;
+		};
+		6217C3B91EF1D0B99A5563AFE9B67948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1779F2A82365033CAC05BAD2AB9EF0F;
+			remoteInfo = SVProgressHUD;
 		};
 		C4E50BD492CA17016BE7636211FB7BAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCBC9CF1BD930776CB55F80747FCD419;
-			remoteInfo = SVProgressHUD;
-		};
-		D09B7FDB9867F764557C2447FF77B911 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCBC9CF1BD930776CB55F80747FCD419;
+			remoteGlobalIDString = F1779F2A82365033CAC05BAD2AB9EF0F;
 			remoteInfo = SVProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C9897C3A13D198F9AD36B04C35172A /* AlertMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
 		170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyIAPs-umbrella.h"; sourceTree = "<group>"; };
 		1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		279D06CC4EFB41DC15925EFC6A28BF78 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		335519BA3147E302CA22DA5DCA8910A7 /* Pods-EasyIAPs_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyIAPs_Tests-resources.sh"; sourceTree = "<group>"; };
+		4010B49167C9B544375A13950B802807 /* EasyIAP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyIAP.swift; sourceTree = "<group>"; };
 		45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		4547FE6369395593E4B4F47A354C42B5 /* Pods_EasyIAPs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyIAPs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C8490535036C3997B92EFA9E4FB831 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +87,6 @@
 		9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyIAP.swift; sourceTree = "<group>"; };
 		A8D39DF6CCC0BF2A43A2826E78E87405 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		B7E18215D06401A1429D1E02CBFC3AFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,16 +94,15 @@
 		C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		C4ADD0ECC9A418E3FA74D425A9D96475 /* Pods-EasyIAPs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyIAPs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyIAPs.xcconfig; sourceTree = "<group>"; };
-		CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
 		D6C04C9F65BB3580D5536C9CA7EE9474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9E0A8598E01887BB17C48B654F0E09B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		E130BA871CFC117800E6FE03 /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 		E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		EE2F00BA7E4A7C348F920CACBDAC9734 /* Pods-EasyIAPs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyIAPs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF2BD192CED74999923DEEFE8C350503 /* Pods-EasyIAPs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyIAPs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EF4D244B37C9F92FFEAA650E11CE6C37 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F568EB7D895345DEAFB861DD7EB3FC3B /* Pods-EasyIAPs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyIAPs_Tests-dummy.m"; sourceTree = "<group>"; };
+		FC177DE6AEF89C38E0EB3E5E8BD9F804 /* HelperMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,38 +114,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DBC9CAEDF7D7C6D7942502A7ED0B95D /* Frameworks */ = {
+		6B724204868F3052D2C204D2617C3CEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83ED41F52ACA4EA91C4707EE4800E3E4 /* Foundation.framework in Frameworks */,
-				36DEA81D4D6D73C7920D2D91D998643A /* QuartzCore.framework in Frameworks */,
-				A7E1367A847818520EB8E2DAF432AC27 /* StoreKit.framework in Frameworks */,
-				C610C9B144C66D44AD8A1506F96CA3F6 /* SVProgressHUD.framework in Frameworks */,
-				E2573BEFD488A38E2DA604F336853CAB /* UIKit.framework in Frameworks */,
+				584C0B2A05C301BFEE06FC23493C5DF3 /* Foundation.framework in Frameworks */,
+				ED1E48EDF9ACD59F8906738AD8297E03 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDA8080AF50E9C3C608C368788933EF6 /* Frameworks */ = {
+		9DE34F0BB9EAA2F6CF6D3A1463542C7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4B8E46B0861956FE448890820E8EFA /* Foundation.framework in Frameworks */,
-				785C27C6FE6A7BBB582AE1FB646B753A /* QuartzCore.framework in Frameworks */,
+				5145E80528F66B5962C0A54D33CC72CA /* Foundation.framework in Frameworks */,
+				2321959E9AD3E846AB6EC25F7E42A041 /* QuartzCore.framework in Frameworks */,
+				D936090700A09A9EFE76B8E272D38615 /* StoreKit.framework in Frameworks */,
+				78DC67BD271C57429D06D2B6EBE3BE2C /* SVProgressHUD.framework in Frameworks */,
+				8D1DF4E721CD57A225B85E25F1CCDA56 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		085EC11B82D310EF2F6E9E6FF1B5F53C /* EasyIAPs */ = {
-			isa = PBXGroup;
-			children = (
-				AAA83DA3E4C314B76D0FCDD6036A558E /* Classes */,
-			);
-			path = EasyIAPs;
-			sourceTree = "<group>";
-		};
 		1B48C0F99DE15EA9BD31F8DE7446F9D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +154,16 @@
 				8E6332218586D5414502E8C359C23FF0 /* Pods-EasyIAPs_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33B54E8A290AF346134276CA325ACF24 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				07C9897C3A13D198F9AD36B04C35172A /* AlertMessages.swift */,
+				4010B49167C9B544375A13950B802807 /* EasyIAP.swift */,
+				FC177DE6AEF89C38E0EB3E5E8BD9F804 /* HelperMethods.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		4C01B668C9638F739582B2B38F298486 /* Frameworks */ = {
@@ -188,6 +190,14 @@
 				AA5C3E6007857393B276FDAE952A73B6 /* Support Files */,
 			);
 			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6C13AF4B3B50A6BC5ECE82CF867E9912 /* EasyIAPs */ = {
+			isa = PBXGroup;
+			children = (
+				33B54E8A290AF346134276CA325ACF24 /* Classes */,
+			);
+			path = EasyIAPs;
 			sourceTree = "<group>";
 		};
 		6F928E922FD84389397DEC2340D6B2B2 /* Support Files */ = {
@@ -264,20 +274,10 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		AAA83DA3E4C314B76D0FCDD6036A558E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */,
-				A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */,
-				E130BA871CFC117800E6FE03 /* HelperMethods.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		B05DA4D837DFFE5B4123595235B141BA /* EasyIAPs */ = {
 			isa = PBXGroup;
 			children = (
-				085EC11B82D310EF2F6E9E6FF1B5F53C /* EasyIAPs */,
+				6C13AF4B3B50A6BC5ECE82CF867E9912 /* EasyIAPs */,
 				6F928E922FD84389397DEC2340D6B2B2 /* Support Files */,
 			);
 			name = EasyIAPs;
@@ -306,15 +306,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31277C768A37D4F524C070BF1028DA98 /* Headers */ = {
+		01C3B1F9A8583AB63A96BFB0A626036A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1E4B81B65A7FB693E781226967D4AE /* SVIndefiniteAnimatedView.h in Headers */,
-				B00F0D82EDDB3702AA0465B49DE11341 /* SVProgressAnimatedView.h in Headers */,
-				B64A382030B74F10C2FD430189BA7647 /* SVProgressHUD-umbrella.h in Headers */,
-				2BC6FDCC47B7559A06BCD131C128B80C /* SVProgressHUD.h in Headers */,
-				ABE077DDB7A041320A08593ADFA82887 /* SVRadialGradientLayer.h in Headers */,
+				F2E5D73660340AF9A6340B96C9D77553 /* EasyIAPs-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,29 +322,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F798DCB91300260263F884F307C2A42F /* Headers */ = {
+		7E2F7DEBD5DEA54EBB04235586DA7952 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F27DFA3F66752D4583129B024ED3B96D /* EasyIAPs-umbrella.h in Headers */,
+				27C11B2EBBEF61D2ADE12B658D7AAEAD /* SVIndefiniteAnimatedView.h in Headers */,
+				7A827B9D739BEC11A63BF64A1D749516 /* SVProgressAnimatedView.h in Headers */,
+				A59E4A6404FF3A9A8CF54967727183D2 /* SVProgressHUD-umbrella.h in Headers */,
+				42FEF9F62DF2B6F7C7B9D4FE8688DDF7 /* SVProgressHUD.h in Headers */,
+				008FE95E67E97ABCF670C969ABD58695 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7F594B8AC9E7B30817E0D3DF28E6C5F5 /* EasyIAPs */ = {
+		5EED7F368AEE08BF737C2BBDE7BE651A /* EasyIAPs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3406FE4FEF23B3C9C882DC417C052977 /* Build configuration list for PBXNativeTarget "EasyIAPs" */;
+			buildConfigurationList = A8D04749D4B569181786B781198C553B /* Build configuration list for PBXNativeTarget "EasyIAPs" */;
 			buildPhases = (
-				7705E05E462795FBEAB0B4FD7D45D023 /* Sources */,
-				9DBC9CAEDF7D7C6D7942502A7ED0B95D /* Frameworks */,
-				F798DCB91300260263F884F307C2A42F /* Headers */,
+				0724FD6088ADCF18AACC2B837AB63842 /* Sources */,
+				9DE34F0BB9EAA2F6CF6D3A1463542C7F /* Frameworks */,
+				01C3B1F9A8583AB63A96BFB0A626036A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6A3ADA997F12BAA86EEB7988DBE42688 /* PBXTargetDependency */,
+				7F21DF0C3D199180B1D84601DB112256 /* PBXTargetDependency */,
 			);
 			name = EasyIAPs;
 			productName = EasyIAPs;
@@ -374,14 +374,14 @@
 			productReference = 4547FE6369395593E4B4F47A354C42B5 /* Pods_EasyIAPs_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DCBC9CF1BD930776CB55F80747FCD419 /* SVProgressHUD */ = {
+		F1779F2A82365033CAC05BAD2AB9EF0F /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 419DEFDBE9C9CC665B5490FB6C4C12D4 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 5B1F78E1F339413F88160DA4F7338E92 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				BCAB4C40CC19545DEC5E501C9A078F74 /* Sources */,
-				BDA8080AF50E9C3C608C368788933EF6 /* Frameworks */,
-				31277C768A37D4F524C070BF1028DA98 /* Headers */,
-				D7B8EA2CB2DB002745BA274DBE4B839C /* Resources */,
+				84055B0AE6A6F93CB426A98FFA4D5E07 /* Sources */,
+				6B724204868F3052D2C204D2617C3CEE /* Frameworks */,
+				7E2F7DEBD5DEA54EBB04235586DA7952 /* Headers */,
+				BAB888047A91E040F561366466A0A810 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -413,25 +413,36 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F594B8AC9E7B30817E0D3DF28E6C5F5 /* EasyIAPs */,
+				5EED7F368AEE08BF737C2BBDE7BE651A /* EasyIAPs */,
 				A30684BF4AD22C006A246734191D6D0A /* Pods-EasyIAPs_Tests */,
-				DCBC9CF1BD930776CB55F80747FCD419 /* SVProgressHUD */,
+				F1779F2A82365033CAC05BAD2AB9EF0F /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7B8EA2CB2DB002745BA274DBE4B839C /* Resources */ = {
+		BAB888047A91E040F561366466A0A810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175BC347C93FEBD29A3A806FDEC5872E /* SVProgressHUD.bundle in Resources */,
+				2FF28DC951B78D6213E9906EC94999F8 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0724FD6088ADCF18AACC2B837AB63842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252E3516D3DF012E2D052CE5FB5BB5EE /* AlertMessages.swift in Sources */,
+				6BD301BAC68D7757F8FF26F2E402AC06 /* EasyIAP.swift in Sources */,
+				4F576B69305F9CA9610034C75902E618 /* EasyIAPs-dummy.m in Sources */,
+				B7DD87564342FECFAC20C3A963AEB523 /* HelperMethods.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		765514E4F602939320D05269189EA61E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,26 +451,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7705E05E462795FBEAB0B4FD7D45D023 /* Sources */ = {
+		84055B0AE6A6F93CB426A98FFA4D5E07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909464A1A953F0273B3A05EDD0796DA1 /* AlertMessages.swift in Sources */,
-				CAA448BFABC4686EC7FAD86C0A4A3409 /* EasyIAP.swift in Sources */,
-				E130BA881CFC117800E6FE03 /* HelperMethods.swift in Sources */,
-				A84BDD5BB0B7F8228E250F9345C0AB53 /* EasyIAPs-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCAB4C40CC19545DEC5E501C9A078F74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				123EE8904A66C13905A7D8986DEFF9DF /* SVIndefiniteAnimatedView.m in Sources */,
-				1F27A55B6389FC8473A2EC2D0FE2D57A /* SVProgressAnimatedView.m in Sources */,
-				A3F833B01A3273254DBD535A64B66B92 /* SVProgressHUD-dummy.m in Sources */,
-				90EB0C1332307A469A641EA4378EEAE0 /* SVProgressHUD.m in Sources */,
-				521CB48DA6F7D8CD85116D0FE334F5C1 /* SVRadialGradientLayer.m in Sources */,
+				8D068AD87A088EF6B6F61A1952E59235 /* SVIndefiniteAnimatedView.m in Sources */,
+				49B04203C86A512DCDA0B28261391F0F /* SVProgressAnimatedView.m in Sources */,
+				2DFD7E6CAFC1A91A3981BF8B39EC29DB /* SVProgressHUD-dummy.m in Sources */,
+				00D505C8D59919F7480C93186D2277A1 /* SVProgressHUD.m in Sources */,
+				CD022B6FC2EA3BA96303C1602E1CC90D /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,20 +469,20 @@
 		3773F6C6BC442E824FBACD40F281FFE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = DCBC9CF1BD930776CB55F80747FCD419 /* SVProgressHUD */;
+			target = F1779F2A82365033CAC05BAD2AB9EF0F /* SVProgressHUD */;
 			targetProxy = C4E50BD492CA17016BE7636211FB7BAB /* PBXContainerItemProxy */;
 		};
 		3B5002DC6103B2D5A3681428F577E6D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyIAPs;
-			target = 7F594B8AC9E7B30817E0D3DF28E6C5F5 /* EasyIAPs */;
+			target = 5EED7F368AEE08BF737C2BBDE7BE651A /* EasyIAPs */;
 			targetProxy = 026738E80394F37D8ABCDDC8643E68D2 /* PBXContainerItemProxy */;
 		};
-		6A3ADA997F12BAA86EEB7988DBE42688 /* PBXTargetDependency */ = {
+		7F21DF0C3D199180B1D84601DB112256 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = DCBC9CF1BD930776CB55F80747FCD419 /* SVProgressHUD */;
-			targetProxy = D09B7FDB9867F764557C2447FF77B911 /* PBXContainerItemProxy */;
+			target = F1779F2A82365033CAC05BAD2AB9EF0F /* SVProgressHUD */;
+			targetProxy = 6217C3B91EF1D0B99A5563AFE9B67948 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,36 +529,7 @@
 			};
 			name = Debug;
 		};
-		0504DD4132D86749960F2DD5F6C8AAC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1BE2EEBA6955BFED9E28E92D032CD4CE /* Debug */ = {
+		102323C83BE52962986EA7832FB1BAFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */;
 			buildSettings = {
@@ -655,64 +626,6 @@
 			};
 			name = Release;
 		};
-		966D57D95FE3562C05D8564A48411C79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SVProgressHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A78AB949A287A95D6184A74100F6DAB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EasyIAPs/EasyIAPs-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EasyIAPs/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyIAPs/EasyIAPs.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EasyIAPs;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -751,6 +664,93 @@
 			};
 			name = Release;
 		};
+		ED9C9405E558115F207735C9A0CC3691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D14D15EDE2D5BF0BF49E3F2E4DDE49 /* EasyIAPs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyIAPs/EasyIAPs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyIAPs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyIAPs/EasyIAPs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyIAPs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F21FC8B74F8E214E34BDE56522E81E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F284EB93A17A99B00E7B5DC30CBD1D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45345F371186FC1299293B470351C236 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -763,20 +763,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3406FE4FEF23B3C9C882DC417C052977 /* Build configuration list for PBXNativeTarget "EasyIAPs" */ = {
+		5B1F78E1F339413F88160DA4F7338E92 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BE2EEBA6955BFED9E28E92D032CD4CE /* Debug */,
-				A78AB949A287A95D6184A74100F6DAB4 /* Release */,
+				F284EB93A17A99B00E7B5DC30CBD1D4D /* Debug */,
+				F21FC8B74F8E214E34BDE56522E81E7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		419DEFDBE9C9CC665B5490FB6C4C12D4 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		A8D04749D4B569181786B781198C553B /* Build configuration list for PBXNativeTarget "EasyIAPs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				966D57D95FE3562C05D8564A48411C79 /* Debug */,
-				0504DD4132D86749960F2DD5F6C8AAC0 /* Release */,
+				102323C83BE52962986EA7832FB1BAFA /* Debug */,
+				ED9C9405E558115F207735C9A0CC3691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
