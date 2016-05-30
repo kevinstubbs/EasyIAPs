@@ -14,16 +14,16 @@ import SVProgressHUD
 
 extension EasyIAP : SKProductsRequestDelegate
 {
-    public func productsRequest(request: SKProductsRequest, didReceiveResponse response: SKProductsResponse)
+     func productsRequest(request: SKProductsRequest, didReceiveResponse response: SKProductsResponse)
     {
         if response.products.count > 0
         {
             let validProduct = response.products[0]
-            validProduct.productIdentifier == self.currnetProductIdentifier ? self.buyProduct(validProduct) : self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.NoProductFound)
+            validProduct.productIdentifier == self.currnetProductIdentifier ? self.buyProduct(validProduct) : self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.NoProductFound)
             
         } else {
             
-            self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.NoProducts)
+            self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.NoProducts)
             
             // Stop Activity Indicator
             
@@ -36,13 +36,13 @@ extension EasyIAP : SKProductsRequestDelegate
 
 extension EasyIAP : SKRequestDelegate
 {
-    public func requestDidFinish(request: SKRequest)
+     func requestDidFinish(request: SKRequest)
     {
     }
     
-    public func request(request: SKRequest, didFailWithError error: NSError)
+     func request(request: SKRequest, didFailWithError error: NSError)
     {
-        self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.ProductRequestFailed)
+        self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.ProductRequestFailed)
     }
 }
 
@@ -50,63 +50,66 @@ extension EasyIAP : SKRequestDelegate
 
 extension EasyIAP : SKPaymentTransactionObserver
 {
-    public func paymentQueue(queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction])
+     func paymentQueue(queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction])
     {
         self.handlingTransactions(transactions)
     }
     
-    public func paymentQueueRestoreCompletedTransactionsFinished(queue: SKPaymentQueue)
+     func paymentQueueRestoreCompletedTransactionsFinished(queue: SKPaymentQueue)
     {
-        queue.transactions.count == 0 ? self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.DidntMakeAnyPayments)  : self.handlingTransactions(queue.transactions)
+        queue.transactions.count == 0 ? self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.DidntMakeAnyPayments)  : self.handlingTransactions(queue.transactions)
     }
     
-    public func paymentQueue(queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: NSError)
+     func paymentQueue(queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: NSError)
     {
         // Stop Activity Indicator
         
         self.hideActivityIndicator()
         
-        self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.CouldNotRestore)
+        self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.CouldNotRestore)
     }
 }
 
 //MARRK: EasyIAP
 
-public class EasyIAP : NSObject {
+class EasyIAP : NSObject {
     
     //MARK: Variables
     
     private let restorePurchaseIdentifier = "RESTORE_PURCHASE"
-    private var receiptValidationServer : String
-    private var currnetProductIdentifier : String
-    private var EasyIAPCompletionBlock : (success : Bool, error : EasyIAPErrorType?) -> ()
+    private var receiptValidationServer = String()
+    private var currnetProductIdentifier = String()
+    private var EasyIAPCompletionBlock : ((success : Bool, error : EasyIAPErrorType?) -> ())?
     
-    //MARRK: Init
+    //MARRK: startProductRequest
     
-    public init(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
+    func startProductRequest(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
         
-        if restore
-        {
+        if Platform.isSimulator {
             
-            self.currnetProductIdentifier = self.restorePurchaseIdentifier
+            self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.CantRunInSimulator)
         }
-        else
-        {
-            self.currnetProductIdentifier = productReferenceName
+        else {
+            
+            if restore
+            {
+                self.currnetProductIdentifier = self.restorePurchaseIdentifier
+            }
+            else
+            {
+                self.currnetProductIdentifier = productReferenceName
+            }
+            
+            self.EasyIAPCompletionBlock = completion
+            self.receiptValidationServer = receiptValidatingServerURL
+            self.showActivityIndicator()
+            self.start()
         }
-        
-        self.receiptValidationServer = receiptValidatingServerURL
-        self.EasyIAPCompletionBlock = completion
-        
-        super.init()
-        
-        self.showActivityIndicator()
-        self.start()
     }
     
     //MARK: Product Request
     
-    public func start()
+    private func start()
     {
         if let _ = NSURL(string: self.receiptValidationServer) {
             
@@ -125,21 +128,28 @@ public class EasyIAP : NSObject {
                 }
             } else {
                 
+                
+                // Stop Activity Indicator
+                
+                self.hideActivityIndicator()
+                
                 // Can't make payments
                 
-                self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.CantMakePayments)
+                self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.CantMakePayments)
             }
         }
         else {
             
+            
+            // Stop Activity Indicator
+            
+            self.hideActivityIndicator()
+            
             // Not a valid Receipt URL
             
-            self.EasyIAPCompletionBlock(success: false, error: EasyIAPErrorType.NotAValidReceiptURL)
+            self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.NotAValidReceiptURL)
         }
-        
-        // Stop Activity Indicator
-        
-        self.hideActivityIndicator()
+ 
     }
     
     //MARK: Buy Product - Payment Section
@@ -223,7 +233,7 @@ public class EasyIAP : NSObject {
         
         self.validateReceipt { status , error in
             
-            status ? self.EasyIAPCompletionBlock(success: true, error: nil) : self.EasyIAPCompletionBlock(success: false, error: error)
+            status ? self.EasyIAPCompletionBlock!(success: true, error: nil) : self.EasyIAPCompletionBlock!(success: false, error: error)
             
             // Stop Activity Indicator
             
@@ -313,14 +323,20 @@ public class EasyIAP : NSObject {
         }
     }
     
+    //MARK: Show Activity
+    
     private func showActivityIndicator()
     {
-        SVProgressHUD.show()
+        dispatch_async(dispatch_get_main_queue()) {
+            SVProgressHUD.show()
+        }
     }
     
+    //MARK: Hide Activity
+
     private func hideActivityIndicator()
     {
-        dispatch_async(dispatch_get_main_queue()) { 
+        dispatch_async(dispatch_get_main_queue()) {
             SVProgressHUD.dismiss()
         }
     }

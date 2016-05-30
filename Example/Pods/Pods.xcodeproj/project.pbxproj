@@ -29,6 +29,7 @@
 		B64A382030B74F10C2FD430189BA7647 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170E247DAABF893060C8B9D458B792BA /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C610C9B144C66D44AD8A1506F96CA3F6 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C8490535036C3997B92EFA9E4FB831 /* SVProgressHUD.framework */; };
 		CAA448BFABC4686EC7FAD86C0A4A3409 /* EasyIAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */; };
+		E130BA881CFC117800E6FE03 /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E130BA871CFC117800E6FE03 /* HelperMethods.swift */; };
 		E2573BEFD488A38E2DA604F336853CAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B0826F669D1E722E4EBBE96C5AD1078 /* UIKit.framework */; };
 		ED4B8E46B0861956FE448890820E8EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC56E59724009FA76673EAB4A0DB9B0 /* Foundation.framework */; };
 		F27DFA3F66752D4583129B024ED3B96D /* EasyIAPs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E51C352CC2C4E9837EA4E85ED5EC96 /* EasyIAPs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,6 +96,7 @@
 		CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
 		D6C04C9F65BB3580D5536C9CA7EE9474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9E0A8598E01887BB17C48B654F0E09B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E130BA871CFC117800E6FE03 /* HelperMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 		E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		EE2F00BA7E4A7C348F920CACBDAC9734 /* Pods-EasyIAPs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyIAPs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 			children = (
 				CA124309D660CF88C8F41C87D1F69A06 /* AlertMessages.swift */,
 				A6282831F5350CDEDC7741B09AB79DE5 /* EasyIAP.swift */,
+				E130BA871CFC117800E6FE03 /* HelperMethods.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 			files = (
 				909464A1A953F0273B3A05EDD0796DA1 /* AlertMessages.swift in Sources */,
 				CAA448BFABC4686EC7FAD86C0A4A3409 /* EasyIAP.swift in Sources */,
+				E130BA881CFC117800E6FE03 /* HelperMethods.swift in Sources */,
 				A84BDD5BB0B7F8228E250F9345C0AB53 /* EasyIAPs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

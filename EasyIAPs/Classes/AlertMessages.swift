@@ -21,7 +21,7 @@ public enum EasyIAPErrorType : Int
     
     case NoProducts = 100, NoProductFound, CantMakePayments, NotAValidReceiptURL, DidntMakeAnyPayments, CouldNotRestore, ProductRequestFailed, CoultNotParseJSONFromRecieptServer, StatusKeyDoesNotExistsInJSON, CouldNotConvertReceiptURLToNSData, ReceiptURLDoesNotExists, CouldNotReadAppStoreReceiptURL, NoResponseFromServer
     
-    case NoError = 500
+    case NoError = 500, CantRunInSimulator
 }
 
 extension EasyIAPErrorType
@@ -58,6 +58,7 @@ extension EasyIAPErrorType
         case .NoResponseFromServer : return "No response from server"
         
         case .NoError : return "No Error"
+        case .CantRunInSimulator : return "Please run the app in Physical device rather than in iOS Simulator"
         }
     }
 }
