@@ -37,18 +37,18 @@ extension EasyIAPErrorType
         case .CouldNotAuthenticate : return "The receipt could not be authenticated"
         case .DoesNotMatchSharedSecret : return "The shared secret you provided does not match the shared secret on file for your account"
         case .ReceiptServerNotAvailable : return "The receipt server is not currently available"
-        case .SubscriptionExpired : return "This receipt is valid but the subscription has expired. When this status code is returned to your server, the receipt data is also decoded and returned as part of the response"
+        case .SubscriptionExpired : return "This receipt is valid but the subscription has expired."
         case .TestEnvironmentReceipt : return "This receipt is from the test environment, but it was sent to the production environment for verification. Send it to the test environment instead"
         case .ProductionEnvironmentReceipt : return "This receipt is from the production environment, but it was sent to the test environment for verification. Send it to the production environment instead"
             
             // In App Purchase error
             
-        case .NoProducts : return "There are no products"
-        case .NoProductFound : return "No product found"
+        case .NoProducts : return "There are no products available"
+        case .NoProductFound : return "No product found in iTunesConnect for the requested product name"
         case .CantMakePayments : return "You can not make payments"
         case .NotAValidReceiptURL : return "Not a valid url, Please check your receipt validating server url"
         case .DidntMakeAnyPayments : return "You did not make any payments"
-        case .CouldNotRestore : return "Could not restore"
+        case .CouldNotRestore : return "Could not restore the requested product"
         case .ProductRequestFailed : return "Product request failed"
         case .CoultNotParseJSONFromRecieptServer : return "Could not parse JSON recieved from receipt server"
         case .StatusKeyDoesNotExistsInJSON : return "Status key does not exists in receipt response JSON"

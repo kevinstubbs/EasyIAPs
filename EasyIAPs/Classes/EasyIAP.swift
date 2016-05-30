@@ -79,17 +79,21 @@ class EasyIAP : NSObject {
     private let restorePurchaseIdentifier = "RESTORE_PURCHASE"
     private var receiptValidationServer = String()
     private var currnetProductIdentifier = String()
+    private var loaderRingColor = UIColor.whiteColor()
+
     private var EasyIAPCompletionBlock : ((success : Bool, error : EasyIAPErrorType?) -> ())?
     
     //MARRK: startProductRequest
     
-    func startProductRequest(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
+    func startProductRequest(productReferenceName : String, receiptValidatingServerURL : String, restore : Bool, loaderRingColor : UIColor, completion : (success : Bool, error : EasyIAPErrorType?) -> ()) {
         
         if Platform.isSimulator {
             
             self.EasyIAPCompletionBlock!(success: false, error: EasyIAPErrorType.CantRunInSimulator)
         }
         else {
+            
+            self.loaderRingColor = loaderRingColor
             
             if restore
             {
@@ -328,6 +332,11 @@ class EasyIAP : NSObject {
     private func showActivityIndicator()
     {
         dispatch_async(dispatch_get_main_queue()) {
+            
+            SVProgressHUD.setDefaultStyle(SVProgressHUDStyle.Custom)
+            SVProgressHUD.setForegroundColor(self.loaderRingColor)
+            SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.Black)
+            SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.Flat)
             SVProgressHUD.show()
         }
     }
