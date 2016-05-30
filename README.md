@@ -7,7 +7,10 @@
 
 ## Features
 
+- [x] In App Purchases supports only Consumables.
 - [x] In App Purchases and receipt validation via server.
+- [ ] A receipt validation server for testing [ Will be available in 0.1.4 ].
+- [ ] Non-Consumables, Auto-Renewable Subscriptions, Free Subscriptions, Non-Renewing Subscriptions [ Will be available in 0.1.4 ].
 
 
 ## Requirements
@@ -71,7 +74,7 @@ $ pod install
 This how you should call EasyIAP in your viewController. Input your product name and reciept validating server URL, if you dont have one you can just put **https://sandbox.itunes.apple.com/verifyReceipt**.
 
 ```
-EasyIAP().startProductRequest("BuyMoreCoins", receiptValidatingServerURL: "https://yourReceiptValidatingURL.com", restore: false) { (success, error) in
+EasyIAP().startProductRequest("BuyMoreCoins", receiptValidatingServerURL: "https://yourReceiptValidatingURL.com", loaderRingColor : UIColor.greenColor() , restore: false) { (success, error) in
             
             if let properError = error
             {
@@ -95,7 +98,7 @@ HTTPHeaderField = application/json : Accept
 
 Always check whether the error is nil or not, if it is not nil you can get a proper explanation for it by calling the error description. Please take a look at all errors from the table below.
 
-Also you don't have to worry about putting a loader. EasyIAP takes care of it. 
+Also you don't have to worry about putting a loader. EasyIAP takes care of it. Please input your favorite color in the function call for the loader color.
 
 #Errors 
 
