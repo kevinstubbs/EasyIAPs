@@ -76,12 +76,9 @@ This how you should call EasyIAP in your viewController. Input your product name
 ```
 EasyIAP().startProductRequest("BuyMoreCoins", receiptValidatingServerURL: "https://yourReceiptValidatingURL.com", loaderRingColor : UIColor.greenColor() , restore: false) { (success, error) in
             
-            if let properError = error
-            {
+            if let properError = error {
                 print(properError.description)
-            }
-            else
-            {
+            } else {
                 print(success)
             }
         }
